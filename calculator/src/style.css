@@ -1,0 +1,48 @@
+.app-cont {
+    width: 800px;
+    height: 800px;
+    margin: auto; /* Center the calculator */
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 100px); /* Increase column width */
+    justify-content: center; /* Center the grid */
+}
+
+button {
+    height: 100px; /* Increase button height */
+    font-weight: bold; /* Make button text bold */
+    font-size: 40px; /* Increase font size of button text */
+}
+
+.display {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 100px; /* Increase display height */
+    font-size: 80px; /* Increase display font size */
+    text-align: right;
+    border: 1px solid black;
+    padding-right: 20px; /* Adjust padding for display */
+    padding-top: 10px; /* Adjust padding for display */
+}
+
+#head{
+    width:500px;
+    height:30px;
+    padding:30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#para{
+    width:1000px;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-right:100px;
+    padding-left:100px;
+    font-size: larger;
+    font-style:italic;
+    font-stretch:extra-expanded;
+    font-weight:500;
+    
+
+}
